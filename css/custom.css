@@ -458,6 +458,9 @@ h1 {
 }
 
 @media (min-width: 690px){
+    .container{
+        font-size: 18px;
+    }
     .circuleLogos img{
         margin-top: 10px;
     }
