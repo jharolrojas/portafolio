@@ -1,0 +1,623 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+   
+   
+    background-color: #03051C;
+    color: #D1CECA;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px ;
+   
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+
+.black{
+    font-weight: bold;
+    color: #000;
+}
+
+.colorTitle{
+    color: #37B5C4;
+}
+
+/* hero image */
+.containerHeroImage{
+    width: 100%;
+    height: auto;
+
+    color: #FFFFFF;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cName,.cExp{
+    top: 23px;
+
+    font-size: 5vw; 
+
+    display: inline-block;
+
+    position: absolute; 
+
+}
+
+.cName {
+    width: 100%;
+
+    left: 0;
+    top: 15px;
+
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.boxp{
+    margin-right: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    width: 90%;
+
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    font-weight: 600;
+
+    border-bottom: #D1CECA 2px solid; 
+
+}
+.cExp{
+    right: 0;
+    top: 35px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.cExp h3,h5{
+    margin: 0;
+    left: 0;
+
+    font-weight: lighter;
+   
+}
+
+ h3{
+    margin: 10px 0;
+
+    font-size: 5.5vw;
+    font-weight: 600;
+
+}
+
+.cExp h4{
+    font-size: 5vw;
+    font-weight: 400;
+
+}
+.cName h6{
+    font-size: 3.5vw;
+    font-weight: lighter;
+
+}
+
+
+
+.cCirculo{
+    width: 90%;
+
+    margin-top: 45px;
+    
+    background-color: #2A2B3D;
+    border-radius: 100%;
+   
+}
+.orderimgredes{
+    display: flex;
+    justify-content: center;
+
+}
+ .circuleimg{
+    width: 30px;
+    height: 30px;
+
+    margin: 10px 5px;
+
+    position: relative;
+
+    border-radius: 100%;
+
+    background-color: #d1ceca;
+     
+}
+
+.circuleimg img{  
+    width: 20px;
+
+    top: 5px;
+    left: 5px;
+
+    position: absolute;
+} 
+
+.cCirculo  img {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 0px;
+
+}
+
+.containerlogos{
+   width: 100%;
+ 
+   display: flex;
+   justify-content: center;
+   
+}
+.containerLogosChild{
+    width: 90%;
+
+    margin-top: 0;
+    padding: 8px;
+
+    background-color: #2A2B3D;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+  
+}
+.circuleLogos{
+    width: 20%;
+    height: 35px;
+
+    margin: 10px;
+    padding: 5px;
+
+    text-align: center;
+
+    background-color: #d1ceca;
+    
+    border-radius: 10px;
+
+}
+
+.circuleLogos img{
+    width: 35px;
+    height: 35px;
+
+}
+
+/* my description */
+.containerMyDescription{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+   
+}
+.c-descriptionServices{
+    width: 100%;
+
+    text-justify: auto;
+    text-align: center;
+}
+/* services */
+
+
+/* skills */
+.containerSkills{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.containerskillschild{
+    width: 310px;
+}
+
+.cBar{
+    width: 100%;
+
+    margin-top: 20px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+      
+}
+
+.bar{
+    width: 260px;
+
+    margin-top:25px ;
+
+    background: #fff;
+   
+}
+
+.filing{
+    width: var(--w);
+
+    background-color: #37B5C4 ;
+
+}
+
+.bar, 
+.filing{
+    height: 8px;
+
+    border-radius: 20px;
+}
+
+.containerSkills .long{
+   margin-left: var(--w);
+   margin-top: 8px;
+
+    font-size: 8px;
+
+    color:#37B5C4;
+
+}
+
+.containerSkills span{
+    left: 25px;
+    top: 0;
+
+    position: absolute;
+    
+    color:#D1CECA;
+
+}
+
+ 
+
+/* contactos */
+.containerContact{
+     width: 100%;
+     height: 360px;
+
+     margin: 10px 0;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.containerContactChild{
+    max-width: 350px;
+    height: 350px;
+
+    position: relative;
+
+}
+
+ .cMail{
+    left: 0;
+    bottom:  10px;
+ }
+
+ .cPhone{
+    right: 0; 
+    top: 8px;
+ }
+
+ .cMail, .cPhone{
+    width: 130px;
+    height: 80px;
+    padding-top: 50px;
+
+    background-color: #fff;
+
+    font-size: 10px;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+ } 
+
+.cMail img ,
+.cPhone img{
+    width: 40px;
+    height: 40px;
+    
+    margin-left: 33%;
+   
+}
+
+#ellipseContact{
+    width: 130px;
+    height: 100px;
+
+    top:-20px;
+    margin: 0;
+
+    position: absolute;
+
+}
+
+.ellipseContact{
+    width: 120px;
+    height: 110px;
+
+    top:15px;
+
+    position: absolute;
+
+}
+
+/* footer */
+.containerFooter{
+    height: 120px;
+    margin: -5px;
+
+    background-color: #292B3D80;
+    
+    text-align: center;
+}
+
+.containerFooter span{
+    line-height: 130px;
+
+}
+
+/* @media */
+@media (min-width: 400px) { 
+
+    .cCirculo{
+        width: 70%;   
+    }
+
+    .circuleLogos {
+        width: 22%;
+        height: 55%;
+    }
+
+    .containerLogosChild{
+        width: 80%;
+    }
+    
+    .circuleLogos img{
+        margin-top: 5px;
+    }
+
+    .circuleimg{
+        width: 40px;
+        height: 40px;
+    }
+
+    .circuleimg img{
+        width: 25px;
+        height: 25px;
+        top: 10px;
+        left: 8px;
+    }
+    .c-descriptionServices {
+        width: 90%;
+    }
+   
+}
+@media (min-width: 500px) { 
+
+    .cCirculo{
+        width: 60%;
+        
+    }
+    .circuleLogos{
+        height: 62%;
+    }
+    .containerLogosChild{
+        width: 65%;
+    } 
+}
+@media (min-width: 565px){
+    .cCirculo{
+        width: 50%;
+        
+    }
+    
+    .containerLogosChild{
+        width: 60%;
+    }
+    .cName, .cExp h4 {
+        font-size: 4.5vw;
+      }
+
+    
+}
+
+@media (min-width: 690px){
+    .circuleLogos img{
+        margin-top: 10px;
+    }
+
+    .cCirculo{
+        width: 55%;  
+    }
+
+    .circuleLogos{
+        
+        width: 20%;
+        height: 70%;
+     
+    }
+    .containerLogosChild{
+        width: 60%;
+    }
+
+    h3{
+        font-size: 4.5vw;
+    }
+
+    h1{
+        margin-top: 10px;
+        border-bottom: none;
+
+        border-top: #D1CECA 2px solid;
+    }
+    .c-descriptionServices {
+        width: 65%;
+    }
+    
+}
+@media (min-width: 750px){
+    .cCirculo{
+        width: 45%;
+        
+    }
+    .size {
+        top: 50px;
+    }
+   
+    .containerLogosChild{
+        width: 60%;
+        
+    
+    
+    }
+    
+}
+
+
+@media (min-width: 800px){
+    .cCirculo{
+        width: 40%;
+        
+    }
+    .circuleLogos{
+        
+        width: 20%;
+        height: 70%;
+     
+    }
+  
+    h3{
+       
+        font-size: 3.5vw;
+       
+    }
+    .cName, .cExp h4 {
+        font-size: 3.5vw;
+      }
+
+    
+    
+}
+@media (min-width: 850px){
+    .cCirculo{
+        width: 35%;
+        
+    }
+  
+   
+    .circuleLogos{
+        
+        width: 20%;
+        height: 70px;
+        margin: 10px 25px;
+     
+    }
+    .containerLogosChild{
+        width: 55%;
+        height: 60%;
+      
+        
+    
+    
+    }
+    .circuleLogos img{
+        margin-top: 15px;
+        width: 50%;
+        height: 60%;
+        
+        }
+    .cName, .cExp h4 {
+        font-size: 3.5vw;
+      }
+
+    
+}
+
+@media (min-width: 1000px) {
+
+    h3{
+       
+        font-size: 2.5vw;
+       
+    }
+    .circuleLogos{
+        
+        height: 80%;
+     
+    }
+    .containerLogosChild{
+        height: 70%;
+     
+    }
+    .circuleLogos img{
+        margin-top: 5px;
+        
+        }
+        
+ }
+ @media (min-width: 1050px) {
+
+    h3{
+       
+        font-size: 2.5vw;
+       
+    }
+    .circuleLogos{
+        
+        width: 15%;
+        height: 70px;
+        margin: 10px 25px;
+     
+    }
+    .containerLogosChild{
+        width: 55%;
+        height: 60%;
+      
+        
+    
+    
+    }
+    .circuleLogos img{
+        margin-top: 15px;
+        width: 50%;
+        height: 60%;
+        
+        }
+        
+ }

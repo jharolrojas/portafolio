@@ -1,0 +1,90 @@
+.containerServices{
+    width: 100%;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.c-scroll{
+    width: 80%;
+    margin: 0 10%;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.elementsScroll{
+    overflow: scroll;
+    display: flex;
+}
+.elements{
+    max-width: 250px;
+    min-width: 150px;
+
+    margin: 10px 5px;
+   
+    position: relative;
+   
+    background-color: #fff;
+    
+}
+ .elements .ellipse{
+    width: 100%;
+
+    margin: 0;
+    left: 0;
+
+    position: absolute; 
+} 
+
+.size{
+    width: 40px;
+    height: 40px;
+
+    top: 40px;
+
+    font-weight: bold;
+}
+
+.elements p,.elements span {
+    margin: 10px 10px;
+
+    display: inline-block;
+}
+.elements span {
+    margin-top: 80%;
+}
+/* portafolio */
+.cscrollPortfolio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerMyPortfolio{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.elementsScrollPortfolio{
+    width: 100%;
+    display: none;
+
+    overflow: scroll;
+    display: flex;
+   }
+
+.elementsPortfolio{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
+.elementsPortfolio img{
+    max-width: 290px;
+    max-height: 290px;
+}
+
