@@ -30,7 +30,7 @@
     color: #37B5C4;
 }
 .space{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 /* hero image */
@@ -463,6 +463,20 @@ h1 {
     .cName, .cExp h4 {
         font-size: 4.5vw;
       }
+    .containerContactChild{
+        max-width: 500px;
+        
+    
+    } 
+    .cMail{
+        left: 70px;
+        bottom:  5px;
+     }
+    
+     .cPhone{
+        right: 70px; 
+        top: 5px;
+     }
 
     
 }
